@@ -7,7 +7,7 @@ git config --global user.email "myemail@gmail.com"
 <br>
 git config --list # Check config list on system
 
-<h4>Clone cammand:</h4>
+<h4>Clone command:</h4>
 Git have 2 sides: Local and remote
 <br/>
 To copy data from remote git we use clone command
@@ -36,3 +36,6 @@ command is: git add . or git add <file>
 nothing is changed in files
 <br>
 In starting or after commit it shows unmodified. because all code updated on remote.
+<h4>Push command:</h4>
+This is used to push all the commited changes to remote.
+command is: git push origin main # to uploa changes in main branch
